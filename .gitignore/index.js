@@ -16,7 +16,7 @@ bot.on('message', message => {
     }
 bot.on('message', message => {
     if (message.content === prefix + "help"){
-            message.channel.sendMessage("``` Voici la liste des commandes : \n  -*help \n  Salut ( sans prefix ) \n  -*Naruto 1.0  -*fabriquer \n *Naunau \n *abcd \n *ping ```");
+            message.channel.sendMessage("``` Voici la liste des commandes : \n  -*help \n  Salut ( sans prefix ) \n  -*Naruto 1.0  \n *fabriquer \n *Naunau \n *abcd \n *ping ```");
     }
 
     if(message.content === "Salut"){
