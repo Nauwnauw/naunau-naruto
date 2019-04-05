@@ -20,7 +20,7 @@ bot.on("message", (message) => {
             message.channel.send(":wave: " + member.displayName + " a bien été kick :wink: :point_right: ");
         }).catch(() => {
              // Failmessage
-            message.channel.send("Access Denied");
+            message.channel.send("Tu ne peux pas faire ceci");
         });
     }
 });
